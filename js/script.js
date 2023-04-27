@@ -25,7 +25,7 @@ const isBreach = async (uri, passwordHash) => {
 	})
 	// if the default message was updated its means the password has been breached
 	if( msg != "Password Not Breached" ){
-		document.body.style.backgroundColor = "#C70039"		// change color of the background
+		document.body.style.backgroundColor = "#C70039"		// change background color
 		msg = "😨 " + msg 									// add emoji at the beginning of the message
 	} else {
 		document.body.style.backgroundColor = "#2ECC71"
