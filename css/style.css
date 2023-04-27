@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #0083b0;
+}
+
+.hdr-div {
+	width: 80%;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 60px auto 0;
+	display: flex;
+	align-items: center;
+}
+
+.hdr-div h1 {
+	font-size: 50px;
+	color: white;
+	margin: 0 auto 0;
+}
+
+.inp-box {
+	background: #fff;
+	width: 40%;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 100px auto 0;
+	display: flex;
+	align-items: center;
+}
+
+.inp-box input{
+	width: 100%;
+	padding: 10px 0;
+	border: 0;
+	outline: 0;
+	font-size: 24px;
+	color: #555;
+}
+
+.inp-box img {
+	width: 35px;
+	cursor: pointer;
+}
+
+.btn-div {
+	background: #fff;
+	width: 30%;
+	border-radius: 5px;
+	margin: 30px auto 50px;
+	display: flex;
+	align-items: center;
+}
+
+.btn-div input {
+	width: 100%;
+	padding: 10px 0;
+	border: 0;
+	outline: 0;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+	background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+.btn-div input:hover{
+	background: linear-gradient(to right, #ee0979, #ff6a00);
+	color: #fff;
+	font-weight: bold;
+}
+
+.output-div {
+/*	background: #fff;*/
+	width: 80%;
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+}
+
+.output-div p {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto 0;
+	color: white;
+}

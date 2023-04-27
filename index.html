@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HIBP Password Checker</title>
+	<link rel="icon" type="image/x-icon" href="images/key.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="hdr-div">
+		<h1>HIBP Password Checker</h1>
+	</div>
+	<div class="inp-box">
+		<input type="password" placeholder="password" name="pass" class="pass">
+		<img src="images/hide.png" id="eye-icon">
+	</div>
+	<div class="btn-div">
+		<input type="button" name="btn" value="submit" onclick="checkBreach()">
+	</div>
+	<div class="output-div">
+		<p class="data"></p>
+	</div>
+	<!-- java scripts -->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/showhide.js"></script>
+</body>
+</html>
